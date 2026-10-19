@@ -1,0 +1,23 @@
+node_modules/
+.next/
+.next-public/
+.venv/
+__pycache__/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+.local/
+
+# Generated files, local review screenshots, credentials and data exports
+next-env.d.ts
+preview/
+.DS_Store
+*.py[cod]
+.pytest_cache/
+coverage/
+.cloudflared/
+*.pem
+*.key
+backups/
+exports/
